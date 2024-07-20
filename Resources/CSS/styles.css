@@ -934,10 +934,10 @@ input.submit-btn {
 .outer::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50px;
+  left: 50%;
   height: 100%;
-  width: 100%;
+  width: 80%;
   background: linear-gradient(45deg, #14ffe9, #ffeb3b, #ff00e0);
   animation: rotate 5s linear infinite;
   z-index: 0;
@@ -945,6 +945,7 @@ input.submit-btn {
   filter: blur(7px);
   align-items: center;
   display: flex;
+  transform: translateX(-50%);
 }
 
 .form-container {
