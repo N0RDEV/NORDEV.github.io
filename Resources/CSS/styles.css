@@ -931,7 +931,7 @@ input.submit-btn {
   }
 }
 
-.outer::before {
+/* .outer::before {
   content: '';
   position: absolute;
   top: 50px;
@@ -946,7 +946,8 @@ input.submit-btn {
   align-items: center;
   display: flex;
   transform: translateX(-50%);
-}
+  z-index: ;
+} */
 
 .form-container {
   display: flex;
